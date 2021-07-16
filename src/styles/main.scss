@@ -1,0 +1,62 @@
+@import "header";
+@import "sidebar";
+@import "inbox";
+@import "mail";
+
+.ellipsis {
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.bgWhite {
+	background-color: #fff;
+}
+.flex {
+	display: flex;
+}
+.flexColumn {
+	flex-direction: column;
+}
+.spaceBetween {
+	justify-content: space-between;
+}
+.alignCenter {
+	align-items: center;
+}
+.travelling {
+	.mdi, &.mdi {
+		color: #fdbf4c;
+	}
+}
+.friends {
+	.mdi, &.mdi {
+		color: #45cbab;
+	}
+}
+.work {
+	.mdi, &.mdi {
+		color: #5ca7ff;
+	}
+}
+.smTextLight {
+	color: #94A1B3;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+}
+.smText {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+}
+.boldText {
+	font-weight: 500;
+}
+.pointer {
+	cursor: pointer;
+}
+.wide {
+	overflow: hidden;
+	width: 100%;
+}

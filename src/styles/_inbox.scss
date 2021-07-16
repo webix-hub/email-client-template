@@ -1,0 +1,107 @@
+.inboxBg {
+    background-color: #EBEDF0;
+    .webix_inp_static {
+        background-color: #EBEDF0;
+    }
+}
+
+.inboxMenu {
+    .webix_inp_static {
+        border-color: transparent;
+        font-weight: 500;
+        &:focus {
+            border-color: transparent;
+        }
+    }    
+}
+
+.inboxItem {
+    border-color: #DADEE0;
+
+    &.webix_selected {
+       box-shadow: inset 3px 0 #1CA1C1;
+    }
+
+    &:hover {
+        background: #F4F5F9;
+    }
+}
+
+.inboxWrapp {
+    line-height: normal;
+    padding: 14px 10px;
+}
+.inboxLeft {
+    margin-right: 12px;
+    height: 100%;
+}
+.inboxImg {
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: relative;
+    img {
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+.inboxUser {
+    margin-bottom: 4px;
+}
+
+.inboxSubject {
+    box-sizing: border-box;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 195px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.inboxMessage {
+    color: #94A1B3;
+    box-sizing: border-box;
+    font-size: 12px;
+    overflow: hidden;
+    max-width: 214px;
+    max-height: 32px;
+    margin-top: 10px;
+    line-height: 16px;
+    width: 100%;
+}
+
+.inboxTag {
+    &::before{
+        font-size: 20px;
+    }
+}
+
+.inboxState {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    &.online {
+        background-color: #55CD97;
+    }
+    &.offline {
+        background-color: #94A1B3;
+    }
+}
+
+.unread {
+    .inboxMessage {
+        color: #475466;
+    }
+    .inboxUser, .inboxSubject {
+        font-weight: 500;
+    }
+}
