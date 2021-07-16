@@ -3,7 +3,7 @@ Webix Email Client Template
 
 Check the Email Client web template for the Webix UI library.
 
-[Email Client live demo](https://webix-hub.github.io/).
+[Email Client live demo](https://webix-hub.github.io/email-client-template/dist/es5/index.html).
 
 Use this template as a part of a business solution with the following features:
 
