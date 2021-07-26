@@ -1,8 +1,8 @@
 export const dataMail = {
-	ownerAvatar: "/photos/avatar.png",
+	ownerAvatar: "./photos/avatar.png",
 	author: "Kira Crouch",
 	authorEmail: "k.crouch@gmail.com",
-	authorAvatar: "/users/kira_crouch.png",
+	authorAvatar: "./users/kira_crouch.png",
 	subject: "Next week meeting",
 	date: new Date(2021, 6, 1, 11, 20),
 	tag: "work",
